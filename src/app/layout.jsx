@@ -53,7 +53,7 @@ export const metadata = {
       url: siteConfig.ownerSite,
     },
   ],
-  creator: "name",
+  creator: siteConfig.owner,
   openGraph: {
     type: "website",
     locale: "en_US",

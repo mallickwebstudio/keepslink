@@ -3,6 +3,7 @@ import { ThemeProvider } from "./theme-provider";
 import { LocalStorageProvider } from "./use-localstorage";
 import { SiteProvider } from "./site-provider";
 import ProducthuntVisit from "@/components/dialog/producthunt-visit";
+import Analytics from "@/components/other/analytics";
 
 export default function Providers({ children }) {
     return (
@@ -18,6 +19,7 @@ export default function Providers({ children }) {
                 </SiteProvider>
                 <Toaster />
                 <ProducthuntVisit />
+                <Analytics />
             </ThemeProvider>
         </LocalStorageProvider>
     )

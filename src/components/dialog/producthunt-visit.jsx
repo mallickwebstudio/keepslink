@@ -30,7 +30,7 @@ export default function ProducthuntVisit() {
                             <span className="truncate font-semibold"> Product Hunt </span>
                             <span className="truncate text-xs"> Support this project </span>
                         </div>
-                        <Triangle className="relative -bottom-2 size-xl animate-bounce group-hover/link:fill-white transition-all" />
+                        <Triangle className="relative size-xl animate-bounce group-hover/link:fill-white transition-all" />
                     </Link>
                 </DialogFooter>
             </DialogContent>

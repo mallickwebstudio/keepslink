@@ -2,14 +2,14 @@
 export const siteConfig = {
     name: "KeepsLink",
     title: "KeepsLink - Your ultimate resource hub",
-    description: "Free resource hub for web-developer, UI/UX designer and other online services sectors and agencies.",
-    url: "https://kl-v1.vercel.app",
-    baseUrl: "https://kl-v1.vercel.app",
-    ogImage: "https://kl-v1.vercel.app/og.png",
+    description: "Your ultimate free resource hub for web-developer, UI/UX designer and other online services sectors and agencies.",
+    url: "https://keepslink.com",
+    baseUrl: "https://keepslink.com",
+    ogImage: "https://keepslink.com/og.png",
     links: {
-        twitter: "https://twitter.com/username",
-        instagram: "https://instagram.com/username",
+        twitter: "https://x.com/mallickwebstudo",
+        instagram: "https://www.instagram.com/mallickwebstudio_/",
     },
-    owner: "Mallick Web Studio",
+    owner: "Mohammad Salman Mallick",
     ownerSite: "https://www.mallickwebstudio.com/"
 }
