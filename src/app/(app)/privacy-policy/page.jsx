@@ -23,7 +23,7 @@ export default function page() {
       <h2 className="text-left">Who We Share Your Data With</h2>
       <p>
         This website is built with Next.js (React framework) and deployed on <Link className="text-link" href="https://vercel.com/legal/privacy-policy">vercel.com</Link>.
-        We use <Link className="text-link" href="https://search.google.com">Google Search Console</Link> and <Link className="text-link" href="https://analytics.google.com">Google Analytics</Link> to monitor and analyze our website&apos;s performance in Google search results.
+        We use <Link className="text-link" href="https://search.google.com">Google Search Console</Link> , <Link className="text-link" href="https://analytics.google.com">Google Analytics</Link> and <Link className="text-link" href="https://vercel.com/docs/analytics/package">Vercel Analytics</Link> to monitor and analyze our website&apos;s performance in Google search results.
       </p>
 
       <h2 className="text-left">Third-Party Resources</h2>
