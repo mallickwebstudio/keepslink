@@ -17,22 +17,22 @@ export default function sitemap() {
     {
       url: `${siteConfig.baseUrl}/about-us`,
       changeFrequency: 'yearly',
-      priority: 2,
+      priority: 0.9,
     },
     {
       url: `${siteConfig.baseUrl}/bookmarks`,
       changeFrequency: 'yearly',
-      priority: 3,
+      priority: 0.8,
     },
     {
       url: `${siteConfig.baseUrl}/personal`,
       changeFrequency: 'yearly',
-      priority: 4,
+      priority: 0.7,
     },
     {
       url: `${siteConfig.baseUrl}/privacy-policy`,
       changeFrequency: 'yearly',
-      priority: 5,
+      priority: 0.6,
     },
     ...urls
   ]
