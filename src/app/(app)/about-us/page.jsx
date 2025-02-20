@@ -1,5 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { buttonVariants } from "@/components/ui/button";
+import { siteConfig } from "@/lib/metadata";
 import { Mail } from "lucide-react";
 import Link from "next/link";
 
@@ -7,6 +8,9 @@ import Link from "next/link";
 export const metadata = {
     title: "About",
     description: "Know more about keeps-link. What is this, how it benefits you, how you can contact us.",
+    alternates: {
+        canonical: siteConfig.baseUrl + "/about-us"
+    },
 }
 
 export default function page() {

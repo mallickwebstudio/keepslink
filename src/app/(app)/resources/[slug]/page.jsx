@@ -1,5 +1,6 @@
 import ItemCard from "@/components/card/item-card";
 import { datas } from "@/lib/database"
+import { siteConfig } from "@/lib/metadata";
 import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
@@ -16,14 +17,17 @@ export async function generateMetadata({ params }) {
 
     return {
         title: filteredData?.title + " resources ",
-        description: `Explore top ${filteredData?.title} resources curated by KeepsLink to enhance your workflow.`
+        description: `Explore top ${filteredData?.title} resources curated by KeepsLink to enhance your workflow.`,
+        alternates: {
+            canonical: siteConfig.baseUrl + "/resources/" + slug
+        },
     }
 }
 
 export default async function Page({ params }) {
     const { slug } = await params;
     const filteredData = datas.find((item) => item.slug === slug);
-
+console.log("CA Test~", siteConfig.baseUrl + "/resources/" + slug)
     if (!filteredData) {
         return notFound()
     }

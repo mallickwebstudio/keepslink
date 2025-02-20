@@ -4,6 +4,9 @@ import Link from "next/link";
 export const metadata = {
   title: "Privacy Policy",
   description: "Review the privacy policy of keepslink, detailing our commitment to safeguarding your personal information.",
+  alternates: {
+    canonical: siteConfig.baseUrl + "/privacy-policy"
+  },
 }
 
 export default function page() {

@@ -1,6 +1,7 @@
 "use client";
 import SparkleText from "@/components/other/sparkle-text";
 import { buttonVariants } from "@/components/ui/button";
+import { siteConfig } from "@/lib/metadata";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { useState, useEffect } from "react";

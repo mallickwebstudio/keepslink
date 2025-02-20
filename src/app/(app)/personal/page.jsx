@@ -1,10 +1,14 @@
 import { BadgeInfo } from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import GeneratedSection from "./generated-section";
+import { siteConfig } from "@/lib/metadata";
 
 export const metadata = {
     title: "Personal Links",
     description: "Create your own list of your favourite websites which will saved in your localstorage.",
+    alternates: {
+        canonical: siteConfig.baseUrl + "/personal"
+    },
 }
 
 export default function Page() {

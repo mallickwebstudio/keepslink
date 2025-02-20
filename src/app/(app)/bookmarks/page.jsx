@@ -1,10 +1,14 @@
 import { BadgeInfo } from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import GeneratedSection from "./generated-section";
+import { siteConfig } from "@/lib/metadata";
 
 export const metadata = {
     title: "Bookmark",
     description: "Bookmark your favourite links from keepslink and get quick access of your favourite websites.",
+    alternates: {
+        canonical: siteConfig.baseUrl + "/bookmarks"
+    },
 }
 
 export default function Page() {
