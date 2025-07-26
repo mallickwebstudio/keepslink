@@ -27,7 +27,7 @@ export async function generateMetadata({ params }) {
 export default async function Page({ params }) {
     const { slug } = await params;
     const filteredData = datas.find((item) => item.slug === slug);
-console.log("CA Test~", siteConfig.baseUrl + "/resources/" + slug)
+    
     if (!filteredData) {
         return notFound()
     }

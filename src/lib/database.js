@@ -3984,7 +3984,7 @@ export const datas = [
                         description: "Monitor all your SEO and SEO audit your website",
                         href: "https://search.google.com/search-console/about",
                         thumbnail: "https://i.imgur.com/IP2WwnZ.jpeg",
-                        tag: "Freemium"
+                        tag: "Free"
                     },
                     {
                         id: "6h8p8k3bp",
@@ -3992,7 +3992,7 @@ export const datas = [
                         description: "Test your website load page speed and fix it",
                         href: "https://pagespeed.web.dev/",
                         thumbnail: "https://i.imgur.com/tTTPmy3.jpeg",
-                        tag: "Freemium"
+                        tag: "Free"
                     },
                     {
                         id: "3gdenv680",
@@ -4000,7 +4000,7 @@ export const datas = [
                         description: "Test your website on moibile devices",
                         href: "https://search.google.com/test/mobile-friendly",
                         thumbnail: "https://i.imgur.com/hVYe9vd.jpeg",
-                        tag: "Freemium"
+                        tag: "Free"
                     },
                     {
                         id: "anv1eem8d",
@@ -4008,7 +4008,7 @@ export const datas = [
                         description: "Check if your domain has been blacklisted",
                         href: "https://transparencyreport.google.com/safe-browsing/search",
                         thumbnail: "https://i.imgur.com/ZA7fo5g.jpeg",
-                        tag: "Freemium"
+                        tag: "Free"
                     },
                 ]
             },
